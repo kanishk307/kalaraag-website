@@ -400,7 +400,7 @@ background: #B22222;
 }
 
 #footloose-second-box{
-       margin-top: 10%;
+       margin-top: 3%;
 /*    background-color: #000;*/
 
     background: 
@@ -444,9 +444,9 @@ background: #B22222;
 .gallery-page .Portfolio {
     position: relative;
     margin: 5px;
-    border: 2px solid orange;
+    border: 1px solid orange;
     float: left;
-    width: 180px;
+    width: 210px;
     transition-duration: 0.4s;
     border-radius: 5px;
     animation: winanim 0.5s ;
@@ -499,4 +499,14 @@ background: #B22222;
     0%{opacity:0;transform:scale3d(.3,.3,.3)}
     50%{opacity:1}
     
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: orange;
+   text-align: center;
 }
