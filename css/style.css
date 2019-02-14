@@ -444,7 +444,7 @@ background: #B22222;
 .gallery-page .Portfolio {
     position: relative;
     margin: 5px;
-    border: 2px solid black;
+    border: 2px solid orange;
     float: left;
     width: 180px;
     transition-duration: 0.4s;
@@ -462,7 +462,7 @@ background: #B22222;
 .gallery-page .Portfolio img {
     width: 100%;
     height: auto;
-    border-radius: 5px
+    border-radius: 5px;
 }
 
 .gallery-page .desc {
