@@ -29,6 +29,14 @@ body,html{
     background-size: cover;
 }
 
+
+.forange{
+    color: orange;
+}
+
+
+
+
 #main-carousel{
     margin: 5%;
 }    
@@ -313,7 +321,7 @@ background: #B22222;
 /* ABOUT US */
 
 #about-us-first-box{
-    margin-top: 10    %;
+    margin-top: 10%;
     background: 
     linear-gradient(
       rgba(0, 0, 0, 0.90), 
@@ -328,7 +336,19 @@ background: #B22222;
 }
 
 
-.forange{
-    color: orange;
+#our-events-first-box{
+    margin-top: 10%;
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.30), 
+      rgba(0, 0, 0, 0.30)
+    ),
+    /* bottom, image */
+    url("../images/home/ourEvents.jpg");
+    height: 100%;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
