@@ -359,7 +359,7 @@ background: #B22222;
       rgba(0, 0, 0, 0.70)
     ),
     /* bottom, image */
-    url("../images/home/ourEvents.jpg");
+    url("../images/home/ourParticipation.jpg");
     height: 100%;
      background-position: center;
     background-repeat: no-repeat;
@@ -375,7 +375,26 @@ background: #B22222;
       rgba(0, 0, 0, 0.70)
     ),
     /* bottom, image */
-    url("../images/home/ourEvents.jpg");
+    url("../images/home/ourAchievements.jpg");
+    height: 100%;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*CONTACT US*/
+#contact-us-first-box{
+    margin-top: 10%;
+    background-color: #000;
+/*
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.70), 
+      rgba(0, 0, 0, 0.70)
+    ),
+    /* bottom, image */ 
+/*    url("../images/home/ourEvents.jpg");*/
     height: 100%;
      background-position: center;
     background-repeat: no-repeat;
@@ -423,7 +442,7 @@ background: #B22222;
 
 #gallery-first-box{
     
-     margin-top: 10%;
+     margin-top: 5%;
     background-color: #000;
 /*
     background: 
