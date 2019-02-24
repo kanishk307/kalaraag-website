@@ -435,6 +435,23 @@ background: #B22222;
     background-size: cover;
 }
 
+#footloose-third-box{
+       margin-top: 3%;
+/*    background-color: #000;*/
+
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.70), 
+      rgba(0, 0, 0, 0.70)
+    ),
+    /* bottom, image */ 
+    url("../images/Footloose/FL3.jpg");
+    height: 100%;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 
 /*GALLERY*/
