@@ -12,11 +12,12 @@
 <!--    <link rel="stylesheet" href="bootstrap/css/custom.css">-->
     <title>RAIT-Kalaraag</title>
 </head>
-<body>
+<body onload="incrementCount(10)">
 
 <!--NAVBAR-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="border-bottom: 1px solid orange;">
  <div class="container">
+    <a class="navbar-brand" href="index.html"><img src="./images/navbar/Logo.jpg" alt=""></a>
      <a class="navbar-brand" href="index.html"><strong>Kalaraag </strong> | <span class="forange">Kalechi Pandhari</span></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -24,6 +25,7 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto w-100 justify-content-end">
+     
       <li class="nav-item active">
         <a class="nav-link forange" href="./index.html" style="color: orange; font-weight: bold;">Home</a>
       </li>
@@ -57,6 +59,13 @@
           <a class="dropdown-item" href="/ourAchievements.html">Our Achievements</a>
         </div>
       </li>
+      
+<!--
+      <li class="nav-item">
+        <a class="nav-link" href="./eliminationround.html">Elimination Round <span style="color: red;">(New)</span></a>
+      </li>
+-->
+      
       
     </ul>
   </div>
@@ -94,7 +103,7 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-          <a href="#"><h5 class='centered-image-for-carousel' style="color: #fff;">Our Events</h5><center><img src="./images/home/ourEvents.jpg" class="d-block w-60 img-reduced-opacity" alt="Our Events"></center></a>
+          <a href="/ourEvents.html"><h5 class='centered-image-for-carousel' style="color: #fff;">Our Events</h5><center><img src="./images/home/ourEvents.jpg" class="d-block w-60 img-reduced-opacity" alt="Our Events"></center></a>
         <div class="carousel-caption d-none d-md-block">
           <div class="text-in-carousel">
 <!--          <h5>Our Events</h5>-->
@@ -105,7 +114,7 @@
         </div>
       </div> 
       <div class="carousel-item">
-         <a href="#"><h5 class='centered-image-for-carousel' style="color: #fff;">Our Participation</h5><center><img src="./images/home/ourParticipation.jpg" class="d-block w-60 img-reduced-opacity" alt="Our participation"></center></a>
+         <a href="/ourParticipation.html"><h5 class='centered-image-for-carousel' style="color: #fff;">Our Participation</h5><center><img src="./images/home/ourParticipation.jpg" class="d-block w-60 img-reduced-opacity" alt="Our participation"></center></a>
         <div class="carousel-caption d-none d-md-block">
 <!--          <h5>Our Participation</h5>-->
           <p>
@@ -114,7 +123,7 @@
         </div>
       </div>
       <div class="carousel-item">
-          <a href="#"><h5 class='centered-image-for-carousel' style="color: #fff;">Our Achievements</h5><center><img src="./images/home/ourAchievements.jpg" class="d-block w-60 img-reduced-opacity" alt="Our Achievements"></center></a>
+          <a href="/ourAchievements.html"><h5 class='centered-image-for-carousel' style="color: #fff;">Our Achievements</h5><center><img src="./images/home/ourAchievements.jpg" class="d-block w-60 img-reduced-opacity" alt="Our Achievements"></center></a>
         <div class="carousel-caption d-none d-md-block">
 <!--          <h5>Our Achievements</h5>-->
           <p>
@@ -178,8 +187,18 @@
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3 text-white" style="font-size: 12px;">&copy; 2019 Copyright:
-    <a href="http://kalaraag.in">RAIT Kalaraag Official</a> |  Made with ♥ by <a href="http://www.kanishkjain.in">Kanishk Jain</a>
+    <a href="http://kalaraag.in">RAIT Kalaraag Official</a> |  Developed by <a href="http://www.kanishkjain.in">Kanishk Jain</a>
   </div>
+  
+
+<!--
+<div class="counter">    
+    <div class="main_container" id="id_main_container">
+      <div class="container_inner" id="display_div_id">
+      </div>
+    </div>
+ </div>
+-->
  
   <!-- Copyright -->
 
@@ -192,6 +211,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
 <script src="js/typingeffect.js"></script>
-
+<script src="js/increment.js"></script>
 </body>
 </html>
